@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AFAF3012-85CA-4BAF-85B7-2CF606490D7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveFunction", "src\WaveFunction\WaveFunction.csproj", "{64D48B1F-5BB6-4AF2-900C-8D65E29317BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "myLib", "myLib", "{FE9E34C1-A248-4100-A271-26A1989DD1A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsWrap", "myLib\GraphicsWrap\GraphicsWrap.csproj", "{769DA02C-7FDA-45A8-8B31-6557B57C046D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64D48B1F-5BB6-4AF2-900C-8D65E29317BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D48B1F-5BB6-4AF2-900C-8D65E29317BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D48B1F-5BB6-4AF2-900C-8D65E29317BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D48B1F-5BB6-4AF2-900C-8D65E29317BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{769DA02C-7FDA-45A8-8B31-6557B57C046D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{769DA02C-7FDA-45A8-8B31-6557B57C046D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{769DA02C-7FDA-45A8-8B31-6557B57C046D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{769DA02C-7FDA-45A8-8B31-6557B57C046D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64D48B1F-5BB6-4AF2-900C-8D65E29317BB} = {AFAF3012-85CA-4BAF-85B7-2CF606490D7E}
+		{769DA02C-7FDA-45A8-8B31-6557B57C046D} = {FE9E34C1-A248-4100-A271-26A1989DD1A5}
+	EndGlobalSection
+EndGlobal
